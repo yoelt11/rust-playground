@@ -1,0 +1,46 @@
+body light-mode {
+    background: #000000;
+}
+
+body dark-mode {
+    background: #fff;
+}
+
+#data-card {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left:30%;
+    margin-right:30%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#data-card.light-mode {
+    background: #fff;
+}
+
+#data-card.dark-mode {
+    background: #000000;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h1.dark-mode {
+    color: #fff;
+}
+
+h1.light-mode {
+    color: #000000;
+}
+
+button {
+    background-color: cadetblue;
+}
+
+button {
+    background: rgb(255, 184, 102);
+    border-radius: 8px;
+    font-family: sans-serif;
+    }
